@@ -1,0 +1,219 @@
+@import url('https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css');
+
+*{
+
+    background-image: url(/img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    font-family:'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 120%;
+ 
+}
+
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width:10%;
+    background:none;
+
+}
+
+main{
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    background:none;
+}
+
+.areaDeTexto{
+   
+    background:none;
+    border: none;
+    color: #6667ab;
+    margin-top: 30px;
+    text-transform:lowercase;
+    font-size: 1rem;
+    opacity: 70%;
+    
+ 
+}
+
+::placeholder{
+    .areaDeTexto:focus {
+        outline: none;
+        background:none;
+    }
+}
+
+.areaDeMensaje{
+    
+    background:#E0FFFF;
+    background-image: url("img/Muneco.png");
+    background-repeat: no-repeat;
+    background-size:fixed;
+    border: 2px;
+    border-radius: 24px;
+    color: #6667ab;
+    margin-left: 6.25rem; 
+    margin-top: 30px;
+    padding-left: 1.25rem;
+    font-size: 1rem;
+
+
+
+}
+.areaDeMensaje:focus {
+    outline: none;
+    background:none;
+}
+
+.botones{
+    display: flex;
+    background:none;
+}
+
+
+
+.btn-desencriptar{
+    background:none;
+    background: #Ffb6c1;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#ffffff;
+    cursor: pointer;
+    height: 47px;
+    margin-left: 30px;
+    width:150px;
+    font-size: 0.8rem;
+}
+
+.btn-encriptar{
+    background:none;
+    background-color:#FF6F61;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 47px;
+    width: 150px;
+    font-size: 0.8rem;
+}
+.copiar{
+    border: 1px solid #0A3871;
+    background:none;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 47px;
+    margin-left: 200px;
+    margin-top: 30px;
+    position: absolute;
+    width: 150px;
+    font-size: 0.8rem;
+}
+.Requisito{
+    color: #8b9196;
+    font-size: 0.8rem;
+    background:none;
+}
+
+.mensajeDeError{
+    background:none;
+    font-size: 0.8rem;
+    color: #c90334;
+    background:none;
+}
+
+#seccion1, #seccion2, #error, #unos{
+    background:none;
+}
+
+.coppy {
+    background:none;
+    font-size: 0.9rem;
+    text-align: center;
+    background:none;
+    color: #8b9196;
+    font-size: 0.7rem;
+    padding: 2%;
+ 
+}
+
+.iconos{
+    background:none;
+    text-align: center;
+    background:none;
+
+
+}
+
+#encabezado{
+    background:none;
+    color:rgb(47, 48, 48);
+    text-align: left;
+    font-size: 0.7rem;
+
+}
+
+
+@media (max-width: 1200px){
+
+    .cuerpoPrincipal{
+        flex-direction: column;
+        padding: 3%;
+        width: auto;
+        margin-left: 0%;
+    }
+    #encabezado{
+
+        font-size: 0.7rem;
+    }
+    .areaDeTexto{
+        width: 100%;
+        padding: 1%;
+    }
+    .btn-encriptar{
+        width: auto;
+        height: auto;
+    }
+    .btn-desencriptar{
+        width: auto;
+        height: auto;
+    }
+    .areaDeMensaje{
+        width: 100%;
+        height: auto;
+        margin-top: 2px;
+        position: absolute;
+        margin-left: 0px;
+    }
+    .copiar{
+        width: auto;
+        height: auto;
+        margin-top: 300px;
+        position: absolute;
+        font-size: 0.8rem;
+        align-content: left;
+    }
+    .coppy {
+
+        font-size: 0.7rem;
+        padding: 2%;
+     
+    }
+    .footer{
+        padding: 5%;
+        width: auto;
+        margin-top: 300px;
+        font-size: 0.3rem;
+
+    }
+    
+}
+
