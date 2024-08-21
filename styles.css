@@ -82,7 +82,7 @@ main{
 
 .btn-desencriptar{
     background:none;
-    background: #Ffb6c1;
+    background: #6667ab;
     border: 1px solid #0A3871;
     border-radius: 24px;
     color:#ffffff;
@@ -95,7 +95,7 @@ main{
 
 .btn-encriptar{
     background:none;
-    background-color:#FF6F61;
+    background-color:#6667ab;
     border: 1px solid #0A3871;
     border-radius: 24px;
     color: white;
