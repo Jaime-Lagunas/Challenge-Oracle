@@ -170,10 +170,16 @@ main{
         width: auto;
         margin-left: 0%;
         align-content: center;
+        justify-content: center;
+        
     }
     #encabezado{
 
         font-size: 0.7rem;
+        justify-content: center;
+    }
+    .cuerpoPrincipal{
+        justify-content: center;
     }
     .areaDeTexto{
         width: 100%;
@@ -194,13 +200,15 @@ main{
         position: absolute;
         margin-left: 0px;
     }
+    .botoncopiar{
+        justify-content: center;
+    }
     .copiar{
         width: auto;
         height: auto;
         margin-top: 300px;
         position: absolute;
         font-size: 0.8rem;
-        align-content: left;
     }
     .coppy {
 
