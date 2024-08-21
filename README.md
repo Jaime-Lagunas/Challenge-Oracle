@@ -23,7 +23,8 @@ A través de una página web se realiza la encriptación de una cadena de caract
 El usuario debe escribir en un cuadro de texto la cadena a encriptar, un código javascript realiza la validación de los caracteres para solo permitir letras en minúsculas y sin acentos.
 Observando la política para la conversión de caracteres, se presenta en un segundo cuadro de texto la cadena de caracteres encriptada.
 Este desafío tiene la capacidad de regresar la cadena encriptada a su versión original.
-<a href="https://challenge-oracle-nine.vercel.app/" target="_blank">Visita la aplicación y utilízala</a> y déjame tus comentarios para enriquecer con ellos la funcionalidad de este proyecto.
+<br><a href="https://challenge-oracle-nine.vercel.app/" target="_blank">Visita la aplicación y utilízala</a> 
+<br>Déjame tus comentarios para enriquecer con ellos la funcionalidad de este proyecto.
 
 <h2>Tecnología</h2>
 HTML, JavaScript, CSS 
